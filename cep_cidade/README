@@ -1,0 +1,5 @@
+# Cep
+
+O programa pergunta ao usuario seu cep e logo depois mostra sua cidade e estado
+
+O programa faz uma requisição a uma API e pega seus valores em JSON 
