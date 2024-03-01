@@ -10,10 +10,9 @@ line()
 cepi_user = input("Qual o numero do seu cep?? ")
 line()
 
-cep_r = requests.get(f'https://cep.awesomeapi.com.br/json/{cepi_user}')
-cep_r = cep_r.json()
+cep_r = requests.get(f'https://opencep.com/v1/{cepi_user}').json()
 
-print('Você mora em: ', cep_r['city'], cep_r['state'] )
+print('Você mora em: ', cep_r['localidade'], cep_r['uf'] )
 line()
 
 
