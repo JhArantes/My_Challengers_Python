@@ -2,7 +2,7 @@ from random import choice #escolher lista
 import os #limpar terminal
 
 # Controle palavras
-list_secrets_words = ['apple','working', 'cavalo', 'computador']
+list_secrets_words = ['apple','working', 'cavalo', 'computador', 'microfone']
 palavra_secreta = choice(list_secrets_words)
 user_letras = []
 
