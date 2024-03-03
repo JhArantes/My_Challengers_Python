@@ -11,9 +11,7 @@ print('-=' * 20)
 print('Vamos jogar um jogo!!\nFale letras e direi se ela existe na palavra secreta ou não')
 print('-=' * 20)
 
-
-
-
+# Main loop
 contador = 0
 while True:
     contador += 1

@@ -1,10 +1,11 @@
 import requests
 
+#The code makes one request for one API 
+#The API return one Json 
+#take the Brazilian city with the cep 
 
 def line():
     print('-=' * 22)
-
-
 
 line()
 cepi_user = input("Qual o numero do seu cep?? ")
