@@ -19,7 +19,7 @@ while parar != 'S':
         continue
 
     if operador in ['x', '*', 'multiplicacao']:
-        resultado = num_1 * num_2
+        resultado = num_1  * num_2
     elif operador in ['/', 'divisao']:
         resultado = num_1 / num_2
     elif operador in ['+', 'adicao']:
